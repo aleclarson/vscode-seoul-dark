@@ -1,0 +1,26 @@
+{
+  "name": "seoul-dark",
+  "displayName": "Seoul Dark",
+  "description": "Port of seoul256 colorscheme from vim. Low-contrast theme. https://github.com/junegunn/seoul256.vim",
+  "version": "1.2.0",
+  "publisher": "aleclarson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleclarson/vscode-seoul-dark"
+  },
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Seoul Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  }
+}
